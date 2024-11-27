@@ -28,6 +28,4 @@
 
 ### Support
 
-Please support by starring this project. Follow me for more cool open-source projects.
 
-[GitHub - adedoyin-emmanuel](https://github.com/adedoyin-emmanuel/)
