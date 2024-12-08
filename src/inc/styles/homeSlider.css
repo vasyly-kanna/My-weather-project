@@ -1,0 +1,74 @@
+.splide__pagination__page {
+    border: 1px solid #000;
+    background-color: #FFF;
+}
+.splide__pagination__page.is-active {
+    background-color: blue;
+}
+
+/* Default styles for the previous arrow */
+.splide__arrow--prev {
+    left: 1em;
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 50%; /* Circular button */
+    padding: 10px; /* Spacing inside the button */
+    transition: all 0.3s ease; /* Smooth animation for hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Hover animation */
+.splide__arrow--prev:hover {
+    background-color: #007BFF; /* Blue background on hover */
+    color: #fff; /* White icon color on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhance shadow */
+}
+/* Default styles for the next arrow */
+.splide__arrow--next {
+    right: 1em;
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 50%; /* Circular button */
+    padding: 10px; /* Spacing inside the button */
+    transition: all 0.3s ease; /* Smooth animation for hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Hover animation */
+.splide__arrow--next:hover {
+    background-color: #007BFF; /* Green background on hover */
+    color: #fff; /* White icon color on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhance shadow */
+}
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+@media (max-width: 1024px) {
+    .splide__pagination {
+        bottom: -1.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    .splide__arrow {
+        z-index: 0;
+    }
+}
+
+/* @media (max-width: 425px) {
+    .splide__arrow {
+        z-index: 0;
+    }
+} */
+
+
+
